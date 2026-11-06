@@ -1,0 +1,42 @@
+name: 🦑 Documentation request
+description: Request a change to the Redpanda documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is for product feedback: bug reports, feature and improvement requests, and documentation requests. It does not accept code contributions or pull requests.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - streaming
+        - rpk
+        - operator
+        - other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who is this for and what problem do they have today?
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like fixed in or added to the documentation?
+      description: Describe what's wrong or missing. Describe the current pain points the user has.
+    validations:
+      required: true
+  - type: textarea
+    id: new-or-gap
+    attributes:
+      label: Is this a new feature or a gap in the documentation?
+  - type: textarea
+    id: links
+    attributes:
+      label: Link to existing product documentation page, if applicable
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Why is this impactful for you? Links to related GitHub issues. Dependencies on other features or components.

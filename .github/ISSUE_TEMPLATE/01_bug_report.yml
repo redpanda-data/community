@@ -1,0 +1,57 @@
+name: 🔧 Bug report
+description: Report something that does not work in Redpanda
+labels: ["kind/bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is for product feedback: bug reports, feature and improvement requests, and documentation requests. It does not accept code contributions or pull requests.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - streaming
+        - rpk
+        - operator
+        - other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Version & Environment
+      description: |
+        Redpanda version (use `rpk version`). Also give the versions of other components:
+        - Operating System (e.g. from `/etc/os-release`)
+        - Any Kafka client libraries in use (e.g. rdkafka, franz-go)
+        - Docker (use `docker info`)
+        - Kubernetes (use `kubectl version`) and the Redpanda Operator version
+        Include a link to test results for automated test failures.
+    validations:
+      required: true
+  - type: textarea
+    id: what-went-wrong
+    attributes:
+      label: What went wrong?
+      description: Describe the unexpected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened instead?
+      description: Describe what you wanted to happen.
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce the issue?
+      value: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Please attach any relevant logs, backtraces, or metric charts.

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ❓ GitHub Discussions
+    url: https://github.com/redpanda-data/community/discussions
+    about: Longer, more involved discussions
+  - name: 💭 Product Feedback
+    url: https://redpanda.com/feedback
+    about: Let us know how we can improve your experience

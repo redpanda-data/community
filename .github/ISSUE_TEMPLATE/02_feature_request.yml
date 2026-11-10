@@ -1,0 +1,41 @@
+name: 🚀 Feature request
+description: Request a new feature or an improvement to Redpanda
+labels: ["kind/enhance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is for product feedback: bug reports, feature and improvement requests, and documentation requests. It does not accept code contributions or pull requests.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - streaming
+        - rpk
+        - operator
+        - other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who is this for and what problem do they have today?
+      description: Describe the user and relevant workflows. Describe the current pain points the user has.
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: What are the success criteria?
+      description: Describe what the desired outcome looks like. Focus on user requirements, not technical implementation. Note any requirements specifically out of scope.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why is solving this problem impactful?
+      description: Describe benefit and urgency for the user and Redpanda.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Links to related GitHub issues. Dependencies on other features or components.

@@ -40,7 +40,7 @@ Please provide the following details:
 - Any steps you undertook to reproduce
 - Any command or error logs
 
-##Licensing
+## Licensing
 
 - Redpanda Community Edition, staring with release 26.3.1, is community-available, provided as binaries, under the Redpanda Community Edition License, which limits use to 50 cores per organization. Users who wish to have access to source code for older versions (pre-26.3.1) can find them under the repository at github.com/redpanda-data/redpanda.
 - Redpanda Operator and rpk are also community-available, provided as binaries, under the Redpanda Community Edition License.

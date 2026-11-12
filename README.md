@@ -5,7 +5,7 @@
 **[Docs](https://docs.redpanda.com/)** | **[Quickstart](https://docs.redpanda.com/streaming/current/get-started/quick-start/)**
 
 
-The online community for Redpanda Community Edition, Redpanda Operator, and rpk.
+The online community for Redpanda Community Edition, Redpanda Operator, and rpk. This repository is for product feedback: discussions, feature and improvement requests, bug reports,  and documentation requests. It does not accept code contributions or pull requests. 
 
 - **Redpanda Community Edition** is the community-available version of Redpanda Streaming, the event-driven streaming data platform for developers. Kafka API compatible yet 10x faster. Raft is built in to every broker; there’s no separate controller quorum to manage. Written in highly-performant C++, so no JVM stop-the-world pauses or heap tuning. Designed from the ground up to run blazingly fast on Linux.
 - **Redpanda Operator** is our Kubernetes Operator for automated deployment and easy orchestration of clusters, providing full lifecycle management and facilitating “day 2” operations.
@@ -25,9 +25,18 @@ Issues are for when you truly suspect you are facing a problem in using the soft
 
 - **Security issues** — Don’t do it publicly! If you have a security-related issue you wish to report, please follow the policy found in **[SECURITY.md](https://github.com/redpanda-data/community/blob/main/SECURITY.md)** for reporting and responsible disclosure.
 - Best-effort: Community support is best-effort, with no guaranteed response time or SLA.
+- Everyone here follows the [code of conduct](CODE_OF_CONDUCT.md).
 - IMPORTANT! Redpanda Enterprise and Cloud customers. If you have a support contract you should use the support portal for faster, SLA-backed help.
 
 ## Opening an Issue
+
+[Open an issue](https://github.com/redpanda-data/community/issues/new/choose) to report a bug or request a feature or a documentation change. Each issue gets one topic label:
+
+| Label | Topic |
+|---|---|
+| `streaming` | Redpanda streaming |
+| `rpk` | The `rpk` command-line tool |
+| `operator` | The Redpanda Operator and Kubernetes |
 
 Please provide the following details:
 - Specific product you are using (Redpanda Community Edition, Redpanda Operator or rpk)
@@ -37,6 +46,15 @@ Please provide the following details:
 - How the problem manifests (how you noted the problem; when it occurred)
 - Any steps you undertook to reproduce
 - Any command or error logs
+
+## Discussions
+
+Use [discussions](https://github.com/redpanda-data/community/discussions) for questions, ideas and longer conversations.
+
+## Releases
+
+- Install Redpanda: [Quickstart](https://docs.redpanda.com/streaming/current/get-started/quick-start/)
+- Release notes: [Redpanda release notes](https://docs.redpanda.com/streaming/current/reference/releases/redpanda/)
 
 ## Licensing
 

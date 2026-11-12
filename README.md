@@ -1,7 +1,7 @@
 <img src="https://github.com/redpanda-data/community/blob/main/icon-redpanda.png" alt="Redpanda logo" width="200">
 
 # Redpanda Community
-## **QUICK LINKS**
+
 **[Docs](https://docs.redpanda.com/)** | **[Quickstart](https://docs.redpanda.com/streaming/current/get-started/quick-start/)**
 
 

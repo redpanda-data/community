@@ -15,11 +15,9 @@ The online community for Redpanda Community Edition, Redpanda Operator, and rpk.
 
 If you have basic questions about Redpanda, we encourage you to first check out the documentation (**[docs.redpanda.com](http://docs.redpanda.com)**). If you don’t find what you wanted at first, make sure to ask the integrated Redpanda AI assistant! It is like a friendly neighborhood Reference Librarian and can help get you to the answers you need.
 
-## Questions vs. Discussions
+## Discussions vs. Issues
 
 If you still can’t find what you are looking for, or if you suspect you have a bug and want to report it, use this repo to open an issue or a discussion.
-
-## Discussions vs. Issues
 
 Discussions are for when you want to state your opinions, or to obtain feedback that may come from your peers as well as from Redpanda employees. These are not necessarily bugs. They may just be observations or questions you couldn’t find answers to in the documentation.
 
